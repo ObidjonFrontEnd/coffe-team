@@ -16,29 +16,121 @@
   </head>
 
   <body>
-    <section class="quality w-[90%] m-auto bg-[#2C343E] px-[85px] flex items-center justify-between">
-      <div class="quality_left">
-        <h1 class="font-[900] text-[40px] text-[#fefcf7] font-[fraunces]">
+    <section
+      class="quality w-[90%] m-auto bg-[#2C343E] px-[85px] flex items-center justify-between mt-[168px] pb-[88px] rounded-[10px] max-[980px]:flex-col-reverse max-[980px]:gap-[64px] max-[520px]:"
+    >
+      <div class="quality_left max-[980px]:text-center">
+        <h1
+          class="font-[900] text-[40px] text-[#fefcf7] font-[fraunces] max-[520px]:text-[30px]"
+        >
           Uncompromising quality
         </h1>
         <p
-          class="font-[400] text-[16px] text-[#fefcf7] opacity-[0.8] pt-[32px]"
+          class="font-[400] text-[16px] text-[#fefcf7] opacity-[0.8] pt-[32px] max-[520px]:text-[10px]"
         >
           Although we work with growers who pay close attention to all stages of
-          <br />
+          <br class="max-[520px]:hidden" />
           harvest and processing, we employ, on our end, a rigorous quality
-          control <br />
+          control <br class="max-[520px]:hidden" />
           program to avoid over-roasting or baking the coffee dry. Every bag of
-          coffee is <br />
+          coffee is <br class="max-[520px]:hidden" />
           tagged with a roast date and batch number. Our goal is to roast
-          consistent, <br />
+          consistent, <br class="max-[520px]:hidden" />
           user-friendly coffee, so that brewing is easy and enjoyable.
         </p>
       </div>
       <div class="quality_right">
-        <img src="./img/Bitmap.png" alt="" />
+        <img class="mt-[-88px]" src="./img/Bitmap.png" alt="" />
       </div>
     </section>
+    <section class="our w-[90%] m-[auto] mt-[168px] pl-[85px] max-[980px]:pl-0">
+      <h1
+        class="font-[fraunces] font-[900] text-[24px] text-[#83888f] max-[470px]:text-center"
+      >
+        Our headquarters
+      </h1>
+      <div
+        class="our_cards mt-[72px] grid grid-cols-3 gap-[95px] max-[680px]:grid-cols-2 max-[680px]:place-items-center max-[470px]:grid-cols-1"
+      >
+        <div class="our_card">
+          <img src="./svg/card1.svg" alt="" />
+          <h2
+            class="font-[900] text-[32px] text-[#333d4b] pt-[45px] font-[fraunces]"
+          >
+            United K.
+          </h2>
+          <p
+            class="font-[400] text-[16px] text-[#333d4b] font-[barlow] pt-[24px]"
+          >
+            68 Asfordby Rd <br />
+            Alcaston <br />
+            SY6 1YA <br />
+            +44 1241 918425
+          </p>
+        </div>
+        <div class="our_card">
+          <img src="./svg/card2.svg" alt="" />
+          <h2
+            class="font-[900] text-[32px] text-[#333d4b] pt-[45px] font-[fraunces]"
+          >
+            Canada
+          </h2>
+          <p
+            class="font-[400] text-[16px] text-[#333d4b] font-[barlow] pt-[24px]"
+          >
+            1528 Eglinton Avenue <br />
+            Toronto <br />
+            Ontario M4P 1A6 <br />
+            +1 416 485 2997
+          </p>
+        </div>
+        <div class="our_card">
+          <img src="./svg/card3.svg" alt="" />
+          <h2
+            class="font-[900] text-[32px] text-[#333d4b] pt-[45px] font-[fraunces]"
+          >
+            Australia
+          </h2>
+          <p
+            class="font-[400] text-[16px] text-[#333d4b] font-[barlow] pt-[24px]"
+          >
+            36 Swanston Street <br />
+            Kewell <br />
+            Victoria <br />
+            +61 4 9928 3629
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-[#2C343E] py-[47px] mt-[168px]">
+      <div
+        class="w-[90%] m-auto flex items-center justify-between max-[980px]:flex-col gap-[30px]"
+      >
+        <div
+          class="flex items-center gap-[102px] max-[980px]:flex-col max-[980px]:gap-[30px]"
+        >
+          <div>
+            <img src="./svg/logo.svg" alt="" />
+          </div>
+          <div
+            class="flex items-center gap-[33px] max-[520px]:flex-col max-[520px]:justify-center"
+          >
+            <p class="font-[700] text-[12px] text-[#83888f] uppercase">HOME</p>
+            <p class="font-[700] text-[12px] text-[#83888f] uppercase">
+              ABOUT US
+            </p>
+            <p class="font-[700] text-[12px] text-[#83888f] uppercase">
+              Create your plan
+            </p>
+          </div>
+        </div>
+        <div class="flex items-center gap-[24px]">
+          <img src="./svg/fb.svg" alt="" />
+          <img src="./svg/rw.svg" alt="" />
+          <img src="./svg/insta.svg" alt="" />
+        </div>
+      </div>
+    </footer>
     <script>
       tailwind.config = {
         theme: {
