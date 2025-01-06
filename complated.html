@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/Combined Shape.svg" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Doto:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Signika:wght@300..700&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+
+
+
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "dark-cyan": "#0E8784",
+                        "dark-grey": "#333D4B",
+                        "pale-orange": "#FDD6BA",
+                        "light-cream": "#FEFCF7",
+                        "grey": "#83888F"
+                    },
+                    fontFamily: {
+                        'fraunces': ['Fraunces'],
+                        'barlow': ['Barlow'],
+
+                    }
+                }
+            }
+        }
+    </script>
+
+
+<header>
+    <div class="container max-w-[1280px] px-[25px] lg:px-[80px] mx-auto">
+        <nav class="flex justify-between mt-[44px]">
+            <img src="./img/svg/Group 5.svg" alt="">
+            <ul class="hidden md:flex gap-[33px] no-underline">
+                <li class="text-[12px] text-grey"><a href="">HOME</a></li>
+                <li class="text-[12px] text-grey"><a href="">ABOUT US</a></li>
+                <li class="text-[12px] text-grey"><a href="">Create your plan</a></li>
+            </ul>
+            
+        </nav>
+        <div class="mt-[38px]  px-[20px] h-[450px] bg-cover bg-center bg-[url('./img/Bitmap_2.png')] md:bg-[url('./img/Bitmap.png')]" >
+            <div class="container max-w-[1045px] mx-auto text-center md:text-left  py-[100px] px-4">
+            <div class="max-w-[650px] h-[182px] ">
+            <h1 class="text-light-cream text-[40px] leading-[40px] lg:text-[72px] lg:leading-[72px] font-fraunces">Create a plan</h1>
+            <p class="text-[16px] text-light-cream leading-[26px] ">Build a subscription plan that best fits your needs. We offer an <br> assortment of the best artisan coffees from around the globe <br> delivered fresh to your door.</p>
+        </div>  
+    </div>
+        </div>
+        <div class="mt-[177px] max-w-[1280px]  h-auto bg-[#2C343E] rounded-[10px]">
+        <div class="container max-w-[1045px]  mx-auto">
+        <div class="flex justify-between flex-col md:flex-row  py-[91px]  gap-[95px] relative after:w-[73%] after:content-[' '] after:z-0 after:absolute after:bg-pale-orange after:left-[10px] after:top-[105px] after:h-[2px] after:hidden after:lg:block ">
+         <div class="max-w-[285px] mx-auto text-center md:text-left">
+            <div class=" border-solid border-[2px] border-dark-cyan rounded-[50%] h-[31px] w-[31px] relative z-10 hidden lg:block"></div>
+            <h1 class="text-pale-orange font-fraunces font-[900] text-[72px] md:text-[48px] ">01</h1>
+            <h2 class="text-[32px] text-light-cream font-fraunces font-[900] pt-[20px]">Pick your <br>
+                coffee</h2>
+            <p class="text-[16px] text-light-cream font-barlow pt-[25px]">Select from our evolving range of artisan coffees. Our beans are ethically <br> 
+                sourced and we pay fair prices for them. There are new coffees in all profiles <br> 
+                every month for you to try out.</p>
+         </div>
+         
+         <div class="max-w-[285px] mx-auto text-center md:text-left">
+            <div class=" border-solid border-[2px] border-dark-cyan rounded-[50%] h-[31px] w-[31px] relative z-10 hidden lg:block"></div>
+            <h1 class="text-pale-orange font-fraunces text-[72px] md:text-[48px]">02</h1>
+            <h2 class="text-[32px] text-light-cream font-fraunces pt-[20px]">Choose the <br> frequency</h2>
+            <p class="text-[16px] text-light-cream pt-[25px]">Customize your order frequency, <br> quantity, even your roast style and grind <br> type. Pause, skip or cancel your <br> subscription with no commitment <br> through our online portal.</p>
+         </div>
+
+         <div class="max-w-[285px] mx-auto text-center md:text-left">
+            <div class=" border-solid border-[2px] border-dark-cyan rounded-[50%] h-[31px] w-[31px] relative z-10 hidden lg:block"></div>
+            <h1 class="text-pale-orange text-[72px] md:text-[42px]">03</h1>
+            <h2 class="text-[32px] text-light-cream pt-[20px]">Receive and <br> enjoy!</h2>
+            <p class="text-[16px] text-light-cream pt-[25px]">We ship your package within 48 hours, <br> freshly roasted. Sit back and enjoy <br> award-winning world-class coffees <br> curated to provide a distinct tasting <br> experience.</p>
+         </div>
+        </div>
+    </div>
+</div>
+    </div>
+</header>
+
+
+
+
+</body>
+</html>
