@@ -16,26 +16,6 @@
   </head>
 
   <body>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              "dark-cyan": "#0E8784",
-              "dark-grey": "#333D4B",
-              "pale-orange": "#FDD6BA",
-              "light-cream": "#FEFCF7",
-              grey: "#83888F",
-            },
-            fontFamily: {
-              fraunces: ["Fraunces"],
-              barlow: ["Barlow"],
-            },
-          },
-        },
-      };
-    </script>
-
     <div class="preferences">
       <div class="container max-w-[1280px] mx-auto px-[20px]">
         <div class="wrapper flex mt-[168px] lg:gap-[145px]">
@@ -100,77 +80,393 @@
             </div>
             <hr class="mt-[24px]" />
           </div>
-          
+
           <div class="card hidden lg:block max-w-[730px] mx-auto">
-        <div class="box2 flex justify-between max-w-[730px]">
-          <h1
-            class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+            <div class="box2 flex justify-between max-w-[730px]">
+              <h1
+                class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+              >
+                How do you drink your coffee?
+              </h1>
+              <img src="./img/Path 2.svg" alt="" />
+            </div>
+
+            <div
+              class="card2 flex flex-col items-center md:flex-row gap-[10px] lg:gap-[25px]"
+            >
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Capsule
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 text-[#333d4b] group-hover:text-[#fff] pl-[28px] pt-[24px]"
+                >
+                  Compatible with Nespresso systems and similar brewers
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Filter
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  For pour over or drip methods like Aeropress, Chemex, and V60
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Espresso
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Dense and finely ground beans for an intense, flavorful
+                  experience
+                </p>
+              </div>
+            </div>
+
+            <div class="box2 flex justify-between mt-[88px]">
+              <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
+                What type of coffee?
+              </h1>
+              <img src="./img/Path 2.svg" alt="" />
+            </div>
+
+            <div class="card2 flex gap-[25px]">
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Single Origin
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Distinct, high quality coffee from a specific family-owned
+                  farm
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+                >
+                  Decaf
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Just like regular coffee, except the caffeine has been removed
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Blended
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Combination of two or three dark roasted beans of organic
+                  coffees
+                </p>
+              </div>
+            </div>
+
+            <div class="box2 flex justify-between mt-[88px]">
+              <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
+                How much would you like?
+              </h1>
+              <img src="./img/Path 2.svg" alt="" />
+            </div>
+
+            <div class="card2 flex gap-[25px]">
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+                >
+                  250g
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+                >
+                  Perfect for the solo drinker. Yields about 12 delicious cups.
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+                >
+                  500g
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Perfect option for a couple. Yields about 40 delectable cups.
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  1000g
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Dense and finely ground beans for an intense, flavorful
+                  experience
+                </p>
+              </div>
+            </div>
+
+            <div class="box2 flex justify-between mt-[88px]">
+              <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
+                Want us to grind them?
+              </h1>
+              <img src="./img/Path 2.svg" alt="" />
+            </div>
+
+            <div class="card2 flex gap-[25px]">
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+                >
+                  Wholebean
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+                >
+                  Best choice if you cherish the full sensory experience
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+                >
+                  Filter
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  For drip or pour-over coffee methods such as V60 or Aeropress
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Cafetiére
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  Course ground beans specially suited for french press coffee
+                </p>
+              </div>
+            </div>
+
+            <div class="box2 flex justify-between mt-[88px]">
+              <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
+                How often should we deliver?
+              </h1>
+              <img src="./img/Path 2.svg" alt="" />
+            </div>
+
+            <div class="card2 flex gap-[25px]">
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+                >
+                  Every week
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+                >
+                  $7.20 per shipment. Includes free first-class shipping.
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+                >
+                  Every 2 weeks
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  $9.60 per shipment. Includes free priority shipping.
+                </p>
+              </div>
+
+              <div
+                class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+              >
+                <h2
+                  class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+                >
+                  Every month
+                </h2>
+                <p
+                  class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+                >
+                  $12.00 per shipment. Includes free priority shipping.
+                </p>
+              </div>
+            </div>
+
+            <div class="order mt-[88px]">
+              <div
+                class="box4 max-w-[730px] rounded-[8px] h-[208px] bg-[#2c343e]"
+              >
+                <h1
+                  class="font-normal text-[16px] leading-6 text-[#fff] pl-[64px] pt-[27px] opacity-[0.5]"
+                >
+                  ORDER SUMMARY
+                </h1>
+                <p
+                  class="max-w-[602px] font-bold text-[25px] leading-[1.66667] text-[#fff] pl-[64px] pt-[8px]"
+                >
+                  “I drink my coffee as
+                  <span class="text-[#0e8784;]">Filter</span>, with a
+                  <span class="text-[ #0e8784]">Decaf</span> type of bean.
+                  <span class="text-[ #0e8784]">250g</span> ground ala
+                  <span class="text-[ #0e8784]">Cafetiére</span>, sent to me
+                  <span class="text-[ #0e8784]">Every Week</span>.”
+                </p>
+              </div>
+              <div class="btn flex justify-end w-full">
+                <button
+                  class="w-[217px] h-[56px] rounded-[6px] bg-[#0e8784] text-[#fefcf7] font-bold text-[18px] leading-[ 1.38889] mt-[40px] border-none"
+                >
+                  Create my plan!
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card lg:hidden max-w-[730px] mx-auto">
+      <div class="box2 flex justify-between max-w-[730px]">
+        <h1
+          class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+        >
+          How do you drink your coffee?
+        </h1>
+        <img src="./img/Path 2.svg" alt="" />
+      </div>
+
+      <div
+        class="card2 flex mx-auto flex-col items-center md:flex-row gap-[10px] lg:gap-[25px]"
+      >
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
           >
-            How do you drink your coffee?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
+            Capsule
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 text-[#333d4b] group-hover:text-[#fff] pl-[28px] pt-[24px]"
+          >
+            Compatible with Nespresso systems and similar brewers
+          </p>
         </div>
 
         <div
-          class="card2 flex flex-col items-center md:flex-row gap-[10px] lg:gap-[25px]"
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
         >
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
           >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Capsule
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 text-[#333d4b] group-hover:text-[#fff] pl-[28px] pt-[24px]"
-            >
-              Compatible with Nespresso systems and similar brewers
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+            Filter
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
           >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Filter
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              For pour over or drip methods like Aeropress, Chemex, and V60
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Espresso
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Dense and finely ground beans for an intense, flavorful
-              experience
-            </p>
-          </div>
+            For pour over or drip methods like Aeropress, Chemex, and V60
+          </p>
         </div>
 
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+          >
+            Espresso
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            Dense and finely ground beans for an intense, flavorful experience
+          </p>
+        </div>
+      </div>
+
+      <div class="max-w-[730px] mx-auto px-[20px]">
+        <div class="box2 flex justify-between mx-auto mt-[88px]">
+          <h1
+            class="font-bold text-[20px] lg:text-[40px] leading-[20px] lg:leading-5 text-[#83888f]"
+          >
             What type of coffee?
           </h1>
           <img src="./img/Path 2.svg" alt="" />
         </div>
 
-        <div class="card2 flex gap-[25px]">
+        <div
+          class="card2 flex flex-col justify-center items-center mx-auto md:flex-row max-w-[730px] mx-auto gap-[25px]"
+        >
           <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
           >
             <h2
               class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
@@ -180,8 +476,7 @@
             <p
               class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
             >
-              Distinct, high quality coffee from a specific family-owned
-              farm
+              Distinct, high quality coffee from a specific family-owned farm
             </p>
           </div>
 
@@ -211,637 +506,274 @@
             <p
               class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
             >
-              Combination of two or three dark roasted beans of organic
-              coffees
+              Combination of two or three dark roasted beans of organic coffees
             </p>
-          </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
-            How much would you like?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              250g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              Perfect for the solo drinker. Yields about 12 delicious cups.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              500g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Perfect option for a couple. Yields about 40 delectable cups.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              1000g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Dense and finely ground beans for an intense, flavorful
-              experience
-            </p>
-          </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
-            Want us to grind them?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              Wholebean
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              Best choice if you cherish the full sensory experience
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              Filter
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              For drip or pour-over coffee methods such as V60 or Aeropress
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Cafetiére
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Course ground beans specially suited for french press coffee
-            </p>
-          </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[40px] leading-5 text-[#83888f]">
-            How often should we deliver?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              Every week
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              $7.20 per shipment. Includes free first-class shipping.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              Every 2 weeks
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              $9.60 per shipment. Includes free priority shipping.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Every month
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              $12.00 per shipment. Includes free priority shipping.
-            </p>
-          </div>
-        </div>
-
-        <div class="order mt-[88px]">
-          <div
-            class="box4 max-w-[730px] rounded-[8px] h-[208px] bg-[#2c343e]"
-          >
-            <h1
-              class="font-normal text-[16px] leading-6 text-[#fff] pl-[64px] pt-[27px] opacity-[0.5]"
-            >
-              ORDER SUMMARY
-            </h1>
-            <p
-              class="max-w-[602px] font-bold text-[25px] leading-[1.66667] text-[#fff] pl-[64px] pt-[8px]"
-            >
-              “I drink my coffee as
-              <span class="text-[#0e8784;]">Filter</span>, with a
-              <span class="text-[ #0e8784]">Decaf</span> type of bean.
-              <span class="text-[ #0e8784]">250g</span> ground ala
-              <span class="text-[ #0e8784]">Cafetiére</span>, sent to me
-              <span class="text-[ #0e8784]">Every Week</span>.”
-            </p>
-          </div>
-          <div class="btn flex justify-end w-full">
-            <button
-              class="w-[217px] h-[56px] rounded-[6px] bg-[#0e8784] text-[#fefcf7] font-bold text-[18px] leading-[ 1.38889] mt-[40px] border-none        "
-            >
-              Create my plan!
-            </button>
           </div>
         </div>
       </div>
-          
+
+      <div class="box2 flex justify-between mt-[88px]">
+        <h1
+          class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+        >
+          How much would you like?
+        </h1>
+        <img src="./img/Path 2.svg" alt="" />
+      </div>
+
+      <div
+        class="card2 flex flex-col md:flex-row justify-center items-center mx-auto gap-[25px]"
+      >
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+          >
+            250g
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+          >
+            Perfect for the solo drinker. Yields about 12 delicious cups.
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+          >
+            500g
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            Perfect option for a couple. Yields about 40 delectable cups.
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+          >
+            1000g
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            Dense and finely ground beans for an intense, flavorful experience
+          </p>
+        </div>
+      </div>
+
+      <div class="box2 flex justify-between mt-[88px]">
+        <h1
+          class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+        >
+          Want us to grind them?
+        </h1>
+        <img src="./img/Path 2.svg" alt="" />
+      </div>
+
+      <div
+        class="card2 flex-col md:flex-row items-center mx-auto justify-center flex gap-[25px]"
+      >
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+          >
+            Wholebean
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+          >
+            Best choice if you cherish the full sensory experience
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+          >
+            Filter
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            For drip or pour-over coffee methods such as V60 or Aeropress
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+          >
+            Cafetiére
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            Course ground beans specially suited for french press coffee
+          </p>
+        </div>
+      </div>
+
+      <div class="box2 flex justify-between mt-[88px]">
+        <h1
+          class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
+        >
+          How often should we deliver?
+        </h1>
+        <img src="./img/Path 2.svg" alt="" />
+      </div>
+
+      <div
+        class="card2 flex flex-col md:flex-row justify-center items-center mx-auto gap-[25px]"
+      >
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
+          >
+            Every week
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
+          >
+            $7.20 per shipment. Includes free first-class shipping.
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
+          >
+            Every 2 weeks
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            $9.60 per shipment. Includes free priority shipping.
+          </p>
+        </div>
+
+        <div
+          class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
+        >
+          <h2
+            class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
+          >
+            Every month
+          </h2>
+          <p
+            class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
+          >
+            $12.00 per shipment. Includes free priority shipping.
+          </p>
+        </div>
+      </div>
+
+      <div class="order mt-[88px] px-[25px]">
+        <div class="box4 max-w-[730px] rounded-[8px] h-[208px] bg-[#2c343e]">
+          <h1
+            class="font-normal text-[16px] leading-6 text-[#fff] pl-[64px] pt-[27px] opacity-[0.5]"
+          >
+            ORDER SUMMARY
+          </h1>
+          <p
+            class="max-w-[602px] font-bold text-[15px] lg:text-[40px] leading-[1.66667] text-[#fff] pl-[64px] pt-[8px]"
+          >
+            “I drink my coffee as
+            <span class="text-[#0e8784;]">Filter</span>, with a
+            <span class="text-[ #0e8784]">Decaf</span> type of bean.
+            <span class="text-[ #0e8784]">250g</span> ground ala
+            <span class="text-[ #0e8784]">Cafetiére</span>, sent to me
+            <span class="text-[ #0e8784]">Every Week</span>.”
+          </p>
+        </div>
+        <div class="btn flex justify-center lg:justify-end w-full">
+          <button
+            class="w-[217px] h-[56px] rounded-[6px] bg-[#0e8784] text-[#fefcf7] font-bold text-[18px] leading-[ 1.38889] mt-[40px]"
+          >
+            Create my plan!
+          </button>
         </div>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="card lg:hidden max-w-[730px] mx-auto">
-        <div class="box2 flex justify-between max-w-[730px] ">
-          <h1
-            class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]"
-          >
-            How do you drink your coffee?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
+    <div class="w-full px-[25px] py-[72px]">
+      <footer
+        class="bg-[#2c343e] max-w-[1280px] mx-auto py-[47px] px-[25px] min-h-[120px]"
+      >
         <div
-          class="card2 flex mx-auto flex-col items-center md:flex-row gap-[10px] lg:gap-[25px]"
+          class="flex flex-col lg:flex-row justify-between items-center gap-y-[49px]"
         >
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Capsule
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 text-[#333d4b] group-hover:text-[#fff] pl-[28px] pt-[24px]"
-            >
-              Compatible with Nespresso systems and similar brewers
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Filter
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              For pour over or drip methods like Aeropress, Chemex, and V60
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Espresso
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Dense and finely ground beans for an intense, flavorful
-              experience
-            </p>
-          </div>
-        </div>
-
-        
-        <div class="max-w-[730px] mx-auto px-[20px]">
-            <div class="box2 flex  justify-between mx-auto mt-[88px]">
-                <h1 class="font-bold   text-[20px] lg:text-[40px] leading-[20px] lg:leading-5 text-[#83888f] ">
-                  What type of coffee?
-                </h1>
-                <img src="./img/Path 2.svg" alt="" />
-              </div>
-      
-              <div class="card2 flex flex-col justify-center items-center mx-auto md:flex-row max-w-[730px] mx-auto gap-[25px]">
-                <div
-                  class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]">
-                  <h2
-                    class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-                  >
-                    Single Origin
-                  </h2>
-                  <p
-                    class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-                  >
-                    Distinct, high quality coffee from a specific family-owned
-                    farm
-                  </p>
-                </div>
-      
-                <div
-                  class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-                >
-                  <h2
-                    class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-                  >
-                    Decaf
-                  </h2>
-                  <p
-                    class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-                  >
-                    Just like regular coffee, except the caffeine has been removed
-                  </p>
-                </div>
-      
-                <div
-                  class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-                >
-                  <h2
-                    class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-                  >
-                    Blended
-                  </h2>
-                  <p
-                    class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-                  >
-                    Combination of two or three dark roasted beans of organic
-                    coffees
-                  </p>
-                </div>
-              </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]">
-            How much would you like?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex flex-col md:flex-row justify-center items-center mx-auto gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              250g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              Perfect for the solo drinker. Yields about 12 delicious cups.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              500g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Perfect option for a couple. Yields about 40 delectable cups.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              1000g
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Dense and finely ground beans for an intense, flavorful
-              experience
-            </p>
-          </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold text-[20px] lg:text-[40px] leading-5 text-[#83888f]">
-            Want us to grind them?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex-col md:flex-row items-center mx-auto justify-center flex gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              Wholebean
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              Best choice if you cherish the full sensory experience
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              Filter
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              For drip or pour-over coffee methods such as V60 or Aeropress
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Cafetiére
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              Course ground beans specially suited for french press coffee
-            </p>
-          </div>
-        </div>
-
-        <div class="box2 flex justify-between mt-[88px]">
-          <h1 class="font-bold  text-[20px] lg:text-[40px] leading-5 text-[#83888f]">
-            How often should we deliver?
-          </h1>
-          <img src="./img/Path 2.svg" alt="" />
-        </div>
-
-        <div class="card2 flex flex-col md:flex-row justify-center items-center mx-auto gap-[25px]">
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[32px]"
-            >
-              Every week
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[ #333d4b] pl-[28px] pt-[24px]"
-            >
-              $7.20 per shipment. Includes free first-class shipping.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[##333d4b] pl-[28px] pt-[32px]"
-            >
-              Every 2 weeks
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              $9.60 per shipment. Includes free priority shipping.
-            </p>
-          </div>
-
-          <div
-            class="box3 rounded-[8px] w-[228px] h-[250px] bg-[#f4f1eb] group md:mt-[60px] hover:bg-[#0e8784]"
-          >
-            <h2
-              class="font-bold text-[24px] leading-5 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[32px]"
-            >
-              Every month
-            </h2>
-            <p
-              class="max-w-[172px] font-normal text-[16px] leading-7 group-hover:text-[#fff] text-[#333d4b] pl-[28px] pt-[24px]"
-            >
-              $12.00 per shipment. Includes free priority shipping.
-            </p>
-          </div>
-        </div>
-
-        <div class="order mt-[88px] px-[25px]">
-          <div
-            class="box4 max-w-[730px] rounded-[8px] h-[208px] bg-[#2c343e]"
-          >
-            <h1
-              class="font-normal text-[16px] leading-6 text-[#fff] pl-[64px] pt-[27px] opacity-[0.5]"
-            >
-              ORDER SUMMARY
-            </h1>
-            <p
-              class="max-w-[602px] font-bold text-[15px] lg:text-[40px] leading-[1.66667] text-[#fff] pl-[64px] pt-[8px]"
-            >
-              “I drink my coffee as
-              <span class="text-[#0e8784;]">Filter</span>, with a
-              <span class="text-[ #0e8784]">Decaf</span> type of bean.
-              <span class="text-[ #0e8784]">250g</span> ground ala
-              <span class="text-[ #0e8784]">Cafetiére</span>, sent to me
-              <span class="text-[ #0e8784]">Every Week</span>.”
-            </p>
-          </div>
-          <div class="btn flex justify-center lg:justify-end w-full">
-            <button
-              class="w-[217px] h-[56px] rounded-[6px] bg-[#0e8784] text-[#fefcf7] font-bold text-[18px] leading-[ 1.38889] mt-[40px]"
-            >
-              Create my plan!
-            </button>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="w-full px-[25px] py-[72px]">
-        <footer class="bg-[#2c343e] max-w-[1280px] mx-auto py-[47px] px-[25px] min-h-[120px]">
-            <div class="flex flex-col lg:flex-row justify-between items-center gap-y-[49px]">
-               <div class="flex flex-col md:flex-row gap-y-[50px] gap-x-[102px]">
-                   <div class="logo">
-                        <img src="img/Group 5.svg" alt="">
-                   </div>
-   
-                   <ul class="flex flex-col md:flex-row items-center gap-y-[24px] gap-x-[33px]">
-                       <li class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"><a href="#">HOME</a></li>
-                       <li class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"><a href="#">ABOUT US</a></li>
-                       <li class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"><a href="#">Create your plan</a></li>
-   
-                   </ul>
-               </div>
-   
-               <div class="icons flex gap-[24px]">
-                <img src="img/facebook.svg" alt="">
-                <img src="img/Instagram.svg" alt="">
-                <img src="img/twitter.svg" alt="">
-               </div>
+          <div class="flex flex-col md:flex-row gap-y-[50px] gap-x-[102px]">
+            <div class="logo">
+              <img src="img/Group 5.svg" alt="" />
             </div>
-   
-         </footer>
-      </div>
+
+            <ul
+              class="flex flex-col md:flex-row items-center gap-y-[24px] gap-x-[33px]"
+            >
+              <li
+                class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"
+              >
+                <a href="#">HOME</a>
+              </li>
+              <li
+                class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"
+              >
+                <a href="#">ABOUT US</a>
+              </li>
+              <li
+                class="font-bold text-[12px] leading-[1.25] tracking-[0.08em] text-[#fff]"
+              >
+                <a href="#">Create your plan</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="icons flex gap-[24px]">
+            <img src="img/facebook.svg" alt="" />
+            <img src="img/Instagram.svg" alt="" />
+            <img src="img/twitter.svg" alt="" />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "dark-cyan": "#0E8784",
+              "dark-grey": "#333D4B",
+              "pale-orange": "#FDD6BA",
+              "light-cream": "#FEFCF7",
+              grey: "#83888F",
+            },
+            fontFamily: {
+              fraunces: ["Fraunces"],
+              barlow: ["Barlow"],
+            },
+          },
+        },
+      };
+    </script>
   </body>
 </html>
